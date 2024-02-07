@@ -10,8 +10,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="container mx-auto">
-    <header>
+<body>
+    <header class="container mx-auto">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -114,7 +114,7 @@
         </section>
     </header>
 
-    <main class="p-2">
+    <main class="p-2 container mx-auto">
 
         <!-- The Legal Practice Area section -->
         <section class="text-center mb-28">
@@ -409,17 +409,73 @@
 
                 <div class="flex-1">
                     <form action="" class="space-y-5">
-                        <input type="text" placeholder="Your Name" class="input input-bordered input-primary w-full bg-[#F3F3F3]" /><br>
-                        <input type="email" placeholder="Your Email" class="input input-bordered input-primary w-full bg-[#F3F3F3]" /><br>
-                        <input type="text" placeholder="Subject" class="input input-bordered input-primary w-full bg-[#F3F3F3]" /><br>
-                        <textarea class="textarea textarea-bordered h-40 w-full bg-[#F3F3F3]" placeholder="Your Message"></textarea>
-                        <button class="bg-[#B68C5A] text-[white] py-5 rounded mt-4 md:block w-[100%]"><a
-                            href="">Send Message</a></button>
+                        <input type="text" placeholder="Your Name"
+                            class="input input-bordered input-primary w-full bg-[#F3F3F3]" /><br>
+                        <input type="email" placeholder="Your Email"
+                            class="input input-bordered input-primary w-full bg-[#F3F3F3]" /><br>
+                        <input type="text" placeholder="Subject"
+                            class="input input-bordered input-primary w-full bg-[#F3F3F3]" /><br>
+                        <textarea class="textarea textarea-bordered h-40 w-full bg-[#F3F3F3]"
+                            placeholder="Your Message"></textarea>
+                        <button class="bg-[#B68C5A] text-[white] py-5 rounded mt-4 md:block w-[100%]"><a href="">Send
+                                Message</a></button>
                     </form>
                 </div>
             </div>
         </section>
     </main>
+
+    <!-- footer section  -->
+
+    <footer class="footer p-20 bg-[#111111] text-white">
+        <nav>
+            <div>
+                <img class="mb-5" src="./images/logo.png" alt="">
+            </div>
+            <p>Justice ensures fairness and <br> equality by upholding rights and  <br> punishing wrongdoing.It seeks to <br> balance societal needs with <br> individual liberties, fosteringx trust <br> and harmony within communities.</p>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Usefull Link</h6>
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">About US</a>
+            <a class="link link-hover">Cases</a>
+            <a class="link link-hover">Blog</a>
+            <a class="link link-hover">Contact us</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Contact Now</h6>
+            <p class="font-medium">555 4th 5t NW, Washington <br>
+                DC 20530, United States</p>
+            <p class="font-medium">+88 01750 000 000 <br>
+                +88 01750 000 000</p>
+
+            <p class="font-medium">info@gmail.com <br>
+                info@gmail.com</p>
+        </nav>
+
+        <form>
+            <h6 class="footer-title">Subscribe</h6>
+            <p class="text-white mb-10 font-medium">Subscribe for our latest & Articles. <br> We Won’t Give You Spam Mails</p>
+            <fieldset class="form-control">
+                <div class="join">
+                    <input type="email" placeholder="Email Address" class="input input-bordered join-item" />
+                    <button class="btn btn-primary join-item bg-[#B68C5A]"><svg width="20.655518" height="20.656738"
+                            viewBox="0 0 20.6555 20.6567" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <desc>
+                                Created with Pixso.
+                            </desc>
+                            <defs />
+                            <path id="Vector"
+                                d="M0.75 7.35596C6.71265 4.08008 13.1909 1.8457 19.9055 0.75C18.8106 7.46484 16.5773 13.9434 13.3019 19.9062L8.95599 11.6997L0.75 7.35596ZM8.95599 11.6997L14.2593 6.39648"
+                                stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </fieldset>
+        </form>
+    </footer>
 </body>
 
 </html>
